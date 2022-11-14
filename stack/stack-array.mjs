@@ -1,7 +1,7 @@
 /**
  * 使用array创建stack
  */
-class StackArray {
+export class StackArray {
   constructor() {
     this.items = [];
   }
@@ -37,11 +37,11 @@ class StackArray {
   }
 }
 
-const stack1 = new StackArray();
+/* const stack1 = new StackArray();
 console.log(stack1.isEmpty());
 stack1.push(199);
 stack1.push(20);
 console.log(stack1);
 console.log(stack1.isEmpty());
 console.log(stack1.size());
-console.log(stack1.pop());
+console.log(stack1.pop()); */
