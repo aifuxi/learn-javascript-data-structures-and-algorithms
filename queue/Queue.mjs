@@ -1,4 +1,4 @@
-class Queue {
+export class Queue {
   constructor() {
     this.items = {};
     this.count = 0;
@@ -48,7 +48,7 @@ class Queue {
   }
 }
 
-const queue = new Queue();
+/* const queue = new Queue();
 console.log('queue.isEmpty():', queue.isEmpty());
 queue.enqueue('Jack');
 queue.enqueue('Tom');
@@ -59,4 +59,4 @@ console.log('queue.size():', queue.size());
 queue.dequeue();
 console.log('queue:', queue);
 console.log('queue.size():', queue.size());
-console.log('queue.peek():', queue.peek());
+console.log('queue.peek():', queue.peek()); */
